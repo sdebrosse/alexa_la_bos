@@ -1,0 +1,60 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "los angeles board",
+            "intents": [
+                {
+                    "name": "GetLatestAgendaIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me the latest agenda",
+                        "agenda",
+                        "tell me the agenda"
+                    ]
+                },
+                {
+                    "name": "GetLatestMotionsIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me the latest motions",
+                        "give me recent motions",
+                        "give me latest motions"
+                    ]
+                },
+                {
+                    "name": "GetNextMotionIntent",
+                    "slots": [],
+                    "samples": [
+                        "next item",
+                        "next"
+                    ]
+                },
+                {
+                    "name": "SetPhoneNumberIntent",
+                    "slots": [
+                        {
+                            "name": "phoneNumber",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{phoneNumber}",
+                        "text me",
+                        "text",
+                        "text me link",
+                        "text me u r l"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
